@@ -1,0 +1,55 @@
+{
+  "info": {
+    "full_name": "信息学院课件",
+    "zh_name": "课件",
+    "en_name": "Slide",
+    "author": {
+      "name": "@ 0xl2oot",
+      "link": "http://0xl2oot.win"
+    },
+    "website": "http://dev-nav.congm.in/#fe",
+    "github": "https://github.com/mcc108/dev-nav"
+  },
+  "section": [
+    {
+      "heading": "高数",
+      "content": [
+        {
+          "title": "高数上",
+          "item": [
+            {
+              "name": "杨卫星",
+              "link": {
+                "home": "#"
+              }
+            },
+            {
+              "name": "杨卫",
+              "link": {
+                "home": "#"
+              }
+            }
+          ]
+        },
+        {
+          "title": "高数下",
+          "item": [
+            {
+              "name": "杨卫星",
+              "link": {
+                "home": "#"
+              }
+            },
+            {
+              "name": "杨卫",
+              "link": {
+                "home": "#"
+              }
+            }
+          ]
+        }
+      ]
+    }
+    
+  ]
+}
