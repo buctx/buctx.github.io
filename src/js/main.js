@@ -8,11 +8,11 @@ var dev_nav = new Vue({
     data: {
         main: {
             status: false,
-            pub: './#pub',
-            cs: './#cs',
-            am: './#am',
-            ie: './#ie',
-            mc: './#mc'
+            pub: 'http://buctx.github.io/#pub',
+            cs: 'http://buctx.github.io/#cs',
+            am: 'http://buctx.github.io/#am',
+            ie: 'http://buctx.github.io/#ie',
+            mc: 'http://buctx.github.io/#mc'
         },
         data: {},
         favicon: 'https://api.byi.pw/favicon/?url=',
