@@ -1,0 +1,55 @@
+{
+  "info": {
+    "full_name": "信息课件",
+    "zh_name": "信息",
+    "en_name": "Information Engineering",
+    "author": {
+      "name": "@ 0xl2oot",
+      "link": "http://0xl2oot.win"
+    },
+    "website": "http://buctx.github.io/#ie",
+    "github": "https://github.com/buctx/buctx.github.io/"
+  },
+  "section": [
+    {
+      "heading": "高数",
+      "content": [
+        {
+          "title": "高数上",
+          "item": [
+            {
+              "name": "杨卫星",
+              "link": {
+                "home": "#"
+              }
+            },
+            {
+              "name": "杨卫",
+              "link": {
+                "home": "#"
+              }
+            }
+          ]
+        },
+        {
+          "title": "高数下",
+          "item": [
+            {
+              "name": "杨卫星",
+              "link": {
+                "home": "#"
+              }
+            },
+            {
+              "name": "杨卫",
+              "link": {
+                "home": "#"
+              }
+            }
+          ]
+        }
+      ]
+    }
+    
+  ]
+}
