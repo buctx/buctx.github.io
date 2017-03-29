@@ -8,7 +8,11 @@ var dev_nav = new Vue({
     data: {
         main: {
             status: false,
-            github: 'https://github.com/mcc108/dev-nav'
+            pub: './#pub',
+            cs: './#cs',
+            am: './#am',
+            ie: './#ie',
+            mc: './#mc'
         },
         data: {},
         favicon: 'https://api.byi.pw/favicon/?url=',

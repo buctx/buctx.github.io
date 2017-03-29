@@ -6,7 +6,7 @@
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
     <title v-if="main.status">Dev-Nav</title>
     <title v-else>{{data.info.full_name + ' - ' + data.info.en_name}}</title>
-<link href="dist/app.css?ec472cf5" rel="stylesheet"></head>
+<link href="dist/app.css?3594c234" rel="stylesheet"></head>
 <body>
 <template v-if="main.status">
     <h1 class="main-title">信息学院学业发展辅导中心</h1>
@@ -14,13 +14,13 @@
 <template v-else>
     <div class="container" v-if="data.info">
         <header>
-            <h2 class="name_en">{{data.info.en_name}}</h2>
-            <h1 class="name_zh">{{data.info.zh_name}}</h1>
-            <a v-if="main.github" :href="main.github" class="tag">计科</a>
-            <a v-if="main.github" :href="main.github" class="tag">信息</a>
-            <a v-if="main.github" :href="main.github" class="tag">自控</a>
-            <a v-if="main.github" :href="main.github" class="tag">测控</a>
-            <a v-if="main.github" :href="main.github" class="tag">公共基础</a>
+            <h3 class="name_en">{{data.info.en_name}}</h3>
+            <h2 class="name_zh">{{data.info.zh_name}}</h2>
+            <a v-if="main.cs" :href="main.cs" class="tag" target="_self">计科</a>
+            <a v-if="main.ie" :href="main.ie" class="tag" target="_self">信息</a>
+            <a v-if="main.am" :href="main.am" class="tag" target="_self">自控</a>
+            <a v-if="main.mc" :href="main.mc" class="tag" target="_self">测控</a>
+            <a v-if="main.pub" :href="main.pub" class="tag" target="_self">公共基础</a>
             <label class="search" :class="{'active': search.status}">
                 <input type="text" placeholder="搜索..." autocomplete="off" @focus="searchOnFocus" @blur="searchOnBlur" @input="searching" v-model="search.content">
             </label>
@@ -58,5 +58,5 @@
         </footer>
     </div>
 </template>
-<script type="text/javascript" src="dist/lib.js?2a13fea5"></script><script type="text/javascript" src="dist/app.js?c78566d2"></script></body>
+<script type="text/javascript" src="dist/lib.js?9406e290"></script><script type="text/javascript" src="dist/app.js?e3e02882"></script></body>
 </html>

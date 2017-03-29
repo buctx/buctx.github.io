@@ -1,0 +1,55 @@
+{
+  "info": {
+    "full_name": "计科课件",
+    "zh_name": "计科",
+    "en_name": "Computer Science",
+    "author": {
+      "name": "@ 0xl2oot",
+      "link": "http://0xl2oot.win"
+    },
+    "website": "http://buctx.github.io/#cs",
+    "github": "https://github.com/buctx/buctx.github.io/"
+  },
+  "section": [
+    {
+      "heading": "高数",
+      "content": [
+        {
+          "title": "高数上",
+          "item": [
+            {
+              "name": "杨卫星",
+              "link": {
+                "home": "#"
+              }
+            },
+            {
+              "name": "杨卫",
+              "link": {
+                "home": "#"
+              }
+            }
+          ]
+        },
+        {
+          "title": "高数下",
+          "item": [
+            {
+              "name": "杨卫星",
+              "link": {
+                "home": "#"
+              }
+            },
+            {
+              "name": "杨卫",
+              "link": {
+                "home": "#"
+              }
+            }
+          ]
+        }
+      ]
+    }
+    
+  ]
+}
