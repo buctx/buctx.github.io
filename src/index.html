@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html id="dev-nav" v-cloak>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
+    <title v-if="main.status">Dev-Nav</title>
+    <title v-else>{{data.info.full_name + ' - ' + data.info.en_name}}</title>
+</head>
+<body>
+<template v-if="main.status">
+    <h1 class="main-title">信息学院学业发展辅导中心</h1>
+</template>
+<template v-else>
+    <div class="container" v-if="data.info">
+        <header>
+            <h2 class="name_en">{{data.info.en_name}}</h2>
+            <h1 class="name_zh">{{data.info.zh_name}}</h1>
+            <a v-if="main.github" :href="main.github" class="tag">计科</a>
+            <a v-if="main.github" :href="main.github" class="tag">信息</a>
+            <a v-if="main.github" :href="main.github" class="tag">自控</a>
+            <a v-if="main.github" :href="main.github" class="tag">测控</a>
+            <a v-if="main.github" :href="main.github" class="tag">公共基础</a>
+            <label class="search" :class="{'active': search.status}">
+                <input type="text" placeholder="搜索..." autocomplete="off" @focus="searchOnFocus" @blur="searchOnBlur" @input="searching" v-model="search.content">
+            </label>
+        </header>
+        <div class="content">
+            <div class="box" v-for="one in data.section">
+                <section>
+                    <div class="section-heading">{{one.heading}}</div>
+                    <ul class="list" v-for="group in one.content">
+                        <li class="list-title" v-if="group.title">{{group.title}}</li>
+                        <li class="list-item" v-for="i in group.item">
+                            <a :href="i.link.home" target="_blank">
+                                <div class="item-logo" v-if="i.link">
+                                    <img :src="favicon + i.link.home">
+                                </div>
+                                <div class="item-name">{{i.name}}</div>
+                            </a>
+                            <ul class="item-link-list">
+                                <Li class="item-wall searchable"></Li>
+                                <li class="item-link" v-for="(key, val) in i.link">
+                                    <a class="iconfont" :class="key" :href="val" target="_blank"></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <footer>
+            <p class="line"></p>
+            <p class="author"><a v-if="data.info.author.link" :href="data.info.author.link" target="_blank">{{data.info.author.name}}</a></p>
+            <p>本站旨在方便北京化工大学信息学院的同学们下载课件，未经允许严谨外传</p>
+            <p>欢迎大家将课件发送至<a href="mailto:buctcistxuefu@163.com">buctcistxuefu@163.com</a>丰富完善本站</p>
+            <p>同时感谢大家对建设本站所做出的贡献</p>
+        </footer>
+    </div>
+</template>
+</body>
+</html>
