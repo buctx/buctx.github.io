@@ -6,6 +6,16 @@
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
     <title v-if="main.status">Dev-Nav</title>
     <title v-else>{{data.info.full_name + ' - ' + data.info.en_name}}</title>
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?7733e4d47564443af5a33cf5bd002a72";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+
 </head>
 <body>
 <template v-if="main.status">
