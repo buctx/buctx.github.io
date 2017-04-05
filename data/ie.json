@@ -12,44 +12,180 @@
   },
   "section": [
     {
-      "heading": "高数",
+      "heading": "离散数学",
       "content": [
         {
-          "title": "高数上",
           "item": [
             {
-              "name": "杨卫星",
+              "name": "离散数学-师雪霖",
               "link": {
-                "home": "#"
+                "home": "http://omwl9zdac.bkt.clouddn.com/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6-%E5%B8%88%E9%9B%AA%E9%9C%96.zip"
               }
             },
             {
-              "name": "杨卫",
+              "name": "离散数学-颜可庆",
               "link": {
-                "home": "#"
+                "home": "http://omwl9zdac.bkt.clouddn.com/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6-%E9%A2%9C%E5%8F%AF%E5%BA%86.7z"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "VB语言程序设计",
+      "content": [
+        {
+          "item": [
+            {
+              "name": "VB程序设计第3版",
+              "link": {
+                "home": "http://omwl9zdac.bkt.clouddn.com/VB%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%AC%AC3%E7%89%88.zip"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "MATLAB基础与应用",
+      "content": [
+        {
+          "item": [
+            {
+              "name": "MATLAB-陈海胜",
+              "link": {
+                "home": "http://omwl9zdac.bkt.clouddn.com/MATLAB-%E9%99%88%E6%B5%B7%E8%83%9C.zip"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "数据结构",
+      "content": [
+        {
+          "item": [
+            {
+              "name": "数据结构-史晟辉",
+              "link": {
+                "home": "http://omwl9zdac.bkt.clouddn.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E5%8F%B2%E6%99%9F%E8%BE%89.zip"
               }
             }
           ]
         },
         {
-          "title": "高数下",
           "item": [
             {
-              "name": "杨卫星",
+              "name": "数据结构演示",
               "link": {
-                "home": "#"
+                "home": "http://omwl9zdac.bkt.clouddn.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E6%BC%94%E7%A4%BA.rar"
+              }
+            }
+          ]
+        },
+        {
+          "item": [
+            {
+              "name": "严蔚敏《数据结构》代码",
+              "link": {
+                "home": "http://omwl9zdac.bkt.clouddn.com/%E4%B8%A5%E8%94%9A%E6%95%8F%E3%80%8A%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E3%80%8B%E6%BA%90%E4%BB%A3%E7%A0%81.zip"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "程序设计基础",
+      "content": [
+        {
+          "item": [
+            {
+              "name": "C语言-夏涛",
+              "link": {
+                "home": "http://omwl9zdac.bkt.clouddn.com/C%E8%AF%AD%E8%A8%80-%E5%A4%8F%E6%B6%9B.rar"
+              }
+            }
+          ]
+        } 
+      ]
+    },
+    {
+      "heading": "数字电子技术",
+      "content": [
+        {
+          "item": [
+            {
+              "name": "数电-曹晰",
+              "link": {
+                "home": "http://omwl9zdac.bkt.clouddn.com/%E6%95%B0%E5%AD%97%E9%80%BB%E8%BE%91-%E6%9B%B9%E6%99%B0.zip"
               }
             },
             {
-              "name": "杨卫",
+              "name": "数电-韩雪岩",
               "link": {
-                "home": "#"
+                "home": "http://omwl9zdac.bkt.clouddn.com/%E6%95%B0%E7%94%B5_%E9%9F%A9%E9%9B%AA%E5%B2%A9.rar"
+              }
+            },
+            {
+              "name": "数电-杜彬",
+              "link": {
+                "home": "http://omwl9zdac.bkt.clouddn.com/%E6%95%B0%E5%AD%97%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF-%E6%9D%9C%E5%BD%AC.zip"
+              }
+            },
+            {
+              "name": "数电实验-韩静文",
+              "link": {
+                "home": "http://omwl9zdac.bkt.clouddn.com/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF%E5%AE%9E%E9%AA%8C-%E9%9F%A9%E9%9D%99%E6%96%87.zip"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "电路原理",
+      "content": [
+        {
+          "item": [
+            {
+              "name": "电路原理-何冠男",
+              "link": {
+                "home": "http://omwl9zdac.bkt.clouddn.com/%E7%94%B5%E8%B7%AF%E5%8E%9F%E7%90%86-%E4%BD%95%E5%86%A0%E7%94%B7.zip"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "模拟电子技术",
+      "content": [
+        {
+          "item": [
+            {
+              "name": "模电-韩雪岩",
+              "link": {
+                "home": "http://omwl9zdac.bkt.clouddn.com/%E6%A8%A1%E7%94%B5--%E9%9F%A9%E9%9B%AA%E5%B2%A9.rar"
+              }
+            },
+            {
+              "name": "模电-杜彬",
+              "link": {
+                "home": "http://omwl9zdac.bkt.clouddn.com/%E6%A8%A1%E7%94%B5-%E6%9D%9C%E5%BD%AC.zip"
+              }
+            },
+            {
+              "name": "模电实验-王琪",
+              "link": {
+                "home": "http://omwl9zdac.bkt.clouddn.com/%E6%A8%A1%E6%8B%9F%E7%94%B5%E8%B7%AF%E5%AE%9E%E9%AA%8C-%E7%8E%8B%E7%90%AA.zip"
               }
             }
           ]
         }
       ]
     }
-    
   ]
 }
