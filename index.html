@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
-    <title v-if="main.status">Dev-Nav</title>
+    <title v-if="main.status">BUCT信院课件</title>
     <title v-else>{{data.info.full_name + ' - ' + data.info.en_name}}</title>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -45,7 +45,7 @@
                         <li class="list-item" v-for="i in group.item">
                             <a :href="i.link.home" target="_blank">
                                 <div class="item-logo" v-if="i.link">
-                                    <img :src="favicon + i.link.home">
+                                    <img :src="favicon + google.com">
                                 </div>
                                 <div class="item-name">{{i.name}}</div>
                             </a>
